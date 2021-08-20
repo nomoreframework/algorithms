@@ -6,6 +6,7 @@ namespace NexBigDigit
     {
         static void Main(string[] args)
         {
+            long i = NextBiggerNumber(1542);
         }
         public static long NextBiggerNumber(long n)
         {
@@ -19,6 +20,12 @@ namespace NexBigDigit
             {
                 if(n_as_array[i - 1] < n_as_array[i])
                 {
+                    if(i - 1 == 0)
+                    {
+                        Array.Sort(n_as_array);
+                        swap(ref n_as_array,i - 1, i);
+                        break;
+                    }
                     swap(ref n_as_array, i - 1, i);
                     break;
                 }
