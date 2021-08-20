@@ -14,6 +14,7 @@ namespace TESTS
             Assert.Equal(2071,Program.NextBiggerNumber(2017));
             Assert.Equal(441, Program.NextBiggerNumber(414));
             Assert.Equal(414, Program.NextBiggerNumber(144));
+            Assert.Equal(2145, Program.NextBiggerNumber(1542));
         }
     }
 }
