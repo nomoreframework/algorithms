@@ -1,14 +1,11 @@
 ﻿using System;
-//using System;
 
 namespace NexBigDigit
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            //28909  
-            
         }
         public static long NextBiggerNumber(long n)
         {
