@@ -6,6 +6,7 @@ namespace Scramblies
     {
         static void Main(string[] args)
         {
+            var res = Scramblie.Scramble("zjaaavscriptsaz", "jlzavsczriptaz");
         }
     }
     

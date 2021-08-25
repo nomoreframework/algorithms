@@ -9,6 +9,7 @@ namespace TESTS
         [Fact]
         public void Test1()
         {
+            Assert.False(Scramblie.Scramble("zjaaavscriptsaz", "jzavsczriptaz"));
             Assert.True(Scramblie.Scramble("rkqodlw", "world"));
             Assert.False(Scramblie.Scramble("katas", "steak"));
             Assert.False(Scramblie.Scramble("scriptjavx", "javascript"));
