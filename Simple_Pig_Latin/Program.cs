@@ -9,6 +9,8 @@ namespace Simple_Pig_Latin
         const string suff = "ay";
         static int Main(string[] args)
         {
+            //problem
+            //https://www.codewars.com/kata/520b9d2ad5c005041100000f/train/csharp
             return -1;
         }
         public static string PigIt(string str)
